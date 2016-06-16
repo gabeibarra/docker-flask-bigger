@@ -17,9 +17,9 @@ Using tiangolo's uwsgi-nginx-flask-docker setup, with customization starting at 
 $ docker-machine create --driver virtualbox default
    ```
 3. Clone repo, rename... Here we'll call it 'my_service'
-   ```
-$ cd /path/to/my_service
-   ```
+
+4. `$ cd /path/to/my_service`
+* Some of the scripts are assuming you're inside of the correct directory.
 
 ###### Normal procedure:
 1. Start the virtual machine:
