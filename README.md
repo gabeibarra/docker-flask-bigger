@@ -12,9 +12,10 @@ Using tiangolo's uwsgi-nginx-flask-docker setup, with customization starting at 
 ## Instructions (Mac)
 ###### First-time:
 1. [Install Docker Engine] (https://docs.docker.com/engine/installation/)
+   
 2. Create a default Docker virtual machine:
    ```
-$ docker-machine create --driver virtualbox default
+   $ docker-machine create --driver virtualbox default
    ```
 3. Clone repo, rename... Here we'll call it 'my_service'
 
