@@ -56,7 +56,7 @@ $ cd /path/to/my_service
    ```
    $ docker run --rm -p 80:80 my_services/my_service_image
    ```
-   This starts a server running the flask app inside the container.
+   This runs a container... Inside of that is a server running your Flask app.
    
    
    Now, to check that the app is running:
