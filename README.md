@@ -8,6 +8,7 @@ Goals:
 * Server tutorials tend to stop at the most basic one-page Flask app, but my apps usually get complex enough to need the app factory + blueprints Flask app.
 
 Using tiangolo's uwsgi-nginx-flask-docker setup, with customization starting at the ini file.
+For all things Flask, check out Miguel Grinberg's book and blog.
 
 ## Instructions (Mac)
 ###### First-time:
