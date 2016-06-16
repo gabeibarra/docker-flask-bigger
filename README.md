@@ -19,8 +19,6 @@ Using tiangolo's uwsgi-nginx-flask-docker setup, with customization starting at 
    ```
 3. Clone repo, rename... Here we'll call it 'my_service'
 
-4. `$ cd /path/to/my_service`
-* Some of the scripts are assuming you're inside of the correct directory.
 
 ###### Normal procedure:
 1. Start the virtual machine:
@@ -37,6 +35,7 @@ Using tiangolo's uwsgi-nginx-flask-docker setup, with customization starting at 
 3. Build the image (or rebuild):
 
   * You'll need to do this the first time, AND any time you update the files.
+  * `$ cd /path/to/my_service` (You'll need to be inside of the correct directory for this step.)
    ```
    $ docker build -t folder_name_in_docker_dir/image_name .
    ```
@@ -48,7 +47,7 @@ Using tiangolo's uwsgi-nginx-flask-docker setup, with customization starting at 
    
    This process will read the directions in the file named 'Dockerfile'
    
-   It'll take a bit of time, and when it's finished, you can check for the image:
+   It'll take a bit of time the first time, and when it's finished, you can check for the image:
    ```
    $ docker images
    ```
